@@ -1,4 +1,4 @@
-const CACHE_NAME = 'flightfeed-cache-v2';
+const CACHE_NAME = 'flightfeed-cache-v3';
 
 // On install, pre-cache the main app shell files.
 self.addEventListener('install', event => {
