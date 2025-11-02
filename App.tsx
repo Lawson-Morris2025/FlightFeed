@@ -1,10 +1,10 @@
 import React, { useState, useCallback } from 'react';
-import { flightData } from './data';
-import Header from './components/Header';
-import ForecastSection from './components/ForecastSection';
-import LocationsSection from './components/LocationsSection';
-import FeedbackButton from './components/FeedbackButton';
-import { LocationReview } from './types';
+import { flightData } from './data.ts';
+import Header from './components/Header.tsx';
+import ForecastSection from './components/ForecastSection.tsx';
+import LocationsSection from './components/LocationsSection.tsx';
+import FeedbackButton from './components/FeedbackButton.tsx';
+import { LocationReview } from './types.ts';
 
 const App: React.FC = () => {
   const [reviews, setReviews] = useState<LocationReview[]>(flightData.location_reviews);

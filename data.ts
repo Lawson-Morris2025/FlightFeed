@@ -1,4 +1,4 @@
-import { FlightData, SafetyRating } from './types';
+import { FlightData, SafetyRating } from './types.ts';
 
 export const flightData: FlightData = {
   "daily_forecast": [
