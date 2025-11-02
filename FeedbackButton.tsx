@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { EnvelopeIcon } from './Icons';
+import { EnvelopeIcon } from './Icons.tsx';
 
 type SubmissionStatus = 'idle' | 'sending' | 'success' | 'error';
 

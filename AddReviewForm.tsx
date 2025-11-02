@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { LocationReview } from './types';
-import { StarIcon } from './Icons';
+import { LocationReview } from './types.ts';
+import { StarIcon } from './Icons.tsx';
 
 interface AddReviewFormProps {
     locationId: string;

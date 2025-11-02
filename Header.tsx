@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { DroneIcon } from './Icons';
+import { DroneIcon } from './Icons.tsx';
 
 const Header: React.FC = () => {
   return (

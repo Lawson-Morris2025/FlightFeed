@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { DailyForecast, SafetyRating } from './types';
-import { SunIcon, CloudIcon, RainIcon, CautionIcon } from './Icons';
+import { DailyForecast, SafetyRating } from './types.ts';
+import { SunIcon, CloudIcon, RainIcon, CautionIcon } from './Icons.tsx';
 
 interface ForecastCardProps {
   forecast: DailyForecast;

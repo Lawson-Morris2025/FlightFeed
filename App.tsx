@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import { flightData } from './data.ts';
-import Header from './components/Header.tsx';
-import ForecastSection from './components/ForecastSection.tsx';
-import LocationsSection from './components/LocationsSection.tsx';
-import FeedbackButton from './components/FeedbackButton.tsx';
+import Header from './Header.tsx';
+import ForecastSection from './ForecastSection.tsx';
+import LocationsSection from './LocationsSection.tsx';
+import FeedbackButton from './FeedbackButton.tsx';
 import { LocationReview } from './types.ts';
 
 const App: React.FC = () => {

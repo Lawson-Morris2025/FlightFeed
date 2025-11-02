@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { MapLocation, LocationReview } from './types';
-import { MapPinIcon, StarIcon } from './Icons';
-import AddReviewForm from './AddReviewForm';
+import { MapLocation, LocationReview } from './types.ts';
+import { MapPinIcon, StarIcon } from './Icons.tsx';
+import AddReviewForm from './AddReviewForm.tsx';
 
 interface LocationCardProps {
   location: MapLocation;
