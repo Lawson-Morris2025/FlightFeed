@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback } from 'react';
 import { flightData } from './data';
-import Header from './components/Header';
-import ForecastSection from './components/ForecastSection';
-import LocationsSection from './components/LocationsSection';
-import FeedbackButton from './components/FeedbackButton';
+import Header from './Header';
+import ForecastSection from './ForecastSection';
+import LocationsSection from './LocationsSection';
+import FeedbackButton from './FeedbackButton';
 import { LocationReview } from './types';
 
 const App: React.FC = () => {
