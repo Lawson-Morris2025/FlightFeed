@@ -1,0 +1,5 @@
+{
+  "name": "FlightFeed uav",
+  "description": "A drone pilot assistant providing UAV safety forecasts, map location data, and user reviews for a specific location. This instance is configured for Cardiff, United Kingdom.",
+  "requestFramePermissions": []
+}
