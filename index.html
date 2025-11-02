@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Fix for GitHub Pages subdirectory hosting -->
+    <base href="/FlightFeed/" />
     
     <meta
       name="description"
@@ -38,13 +40,14 @@
     background: #6b7280; /* bg-gray-500 */
   }
 </style>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-gray-900 text-white custom-scrollbar">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- Change script type to 'text/babel' so Babel can transpile it -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <!-- 
+      - Change script type to 'text/babel' so Babel can transpile it.
+      - Add data-presets to tell Babel HOW to transpile (React & TypeScript).
+    -->
+    <script type="text/babel" data-type="module" src="./index.tsx" data-presets="react,typescript"></script>
+  </body>
 </html>
