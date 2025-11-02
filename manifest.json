@@ -1,17 +1,1 @@
-{
-  "short_name": "FlightFeed",
-  "name": "FlightFeed",
-  "description": "A drone pilot assistant providing UAV safety forecasts, map location data, and user reviews for a specific location. This instance is configured for Cardiff, United Kingdom.",
-  "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#0891b2",
-  "background_color": "#111827"
-}
+
