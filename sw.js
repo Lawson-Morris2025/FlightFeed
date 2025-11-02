@@ -7,10 +7,10 @@ self.addEventListener('install', event => {
       .then(cache => {
         console.log('Opened cache and caching app shell');
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/icon.svg',
-          '/manifest.json'
+          './',
+          './index.html',
+          './icon.svg',
+          './manifest.json'
         ]);
       })
   );
